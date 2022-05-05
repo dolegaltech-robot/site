@@ -1,0 +1,112 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #3F0A3C;
+  --ifm-color-primary-dark: #32032F;
+  --ifm-color-primary-darker: #270325;
+  --ifm-color-primary-darkest: #1E011C;
+  --ifm-color-primary-light: #C82C61;
+  --ifm-color-primary-lighter: #E05F8B;
+  --ifm-color-primary-lightest: #F5AEC6;
+  --ifm-color-background: #FFFFFF;
+  --ifm-color-background-highlight: #F4F4F4;
+  --ifm-color-background-highlight-border: #cccccc;
+  --ifm-code-font-size: 95%;
+  --ifm-spacing-horizontal: 40px;
+}
+
+.navbar__brand {
+  margin-right: 3rem;
+}
+
+.hero--primary {
+  background-image: linear-gradient(to top right, #763B89 , #CA2C60);
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #F11A63;
+  --ifm-color-primary-dark: #DA1759;
+  --ifm-color-primary-darker: #AE1448;
+  --ifm-color-primary-darkest: #820F35;
+  --ifm-color-primary-light: #FF5F95;
+  --ifm-color-primary-lighter: #FA95B7;
+  --ifm-color-primary-lightest: #FEB7CF;
+  --ifm-color-background: #18191a;
+  --ifm-color-background-highlight: #2E2F30;
+  --ifm-color-background-highlight-border: #595959;
+
+
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+header.hero {
+  padding: 8rem 0
+}
+
+.container--header {
+  border-bottom: 1px solid var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-light);
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 10px 0px;
+}
+
+.home.col {
+  margin: 4rem 0px;
+  border-radius: 20px;
+  border: 1px solid var(--ifm-color-background);
+  background-color: none;
+  transition: background-color 0.3s, border 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home.col svg {
+  margin: 20px;
+}
+
+.home.col.available:hover {
+  transition: background-color 0.7s, border 0.7s;
+  background-color: var(--ifm-color-background-highlight);
+  border: 1px solid #cccccc
+}
+
+
+.home.col:hover {
+  text-decoration: none;
+}
+
+.pill {
+  border-radius: 20px;
+  width: 130px;
+  margin-top: 30px;
+  font-weight: 600;
+  display: block;
+  color: var(--ifm-color-primary-lightest);
+  background-color: var(--ifm-color-primary);
+  text-transform: uppercase;
+  font-size: 0.8rem
+}
+
+.theme-doc-sidebar-item-category  {
+  padding-top: 20px;
+  margin-top: 20px;
+}

@@ -3,7 +3,10 @@
 
 # Production
 /build
+
+# Documents
 /docs
+/docs/101
 
 # Generated files
 .docusaurus

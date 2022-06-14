@@ -6,7 +6,7 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #3F0A3C;
+  --ifm-color-primary: #8E3D8A;
   --ifm-color-primary-dark: #32032F;
   --ifm-color-primary-darker: #270325;
   --ifm-color-primary-darkest: #1E011C;
@@ -109,4 +109,12 @@ header.hero {
 .theme-doc-sidebar-item-category  {
   padding-top: 20px;
   margin-top: 20px;
+}
+
+article img {
+    border: 1px dashed var(--ifm-color-background-highlight-border);
+    padding: 2rem;
+    border-radius: 20px;
+    margin: 2rem 0px;
+    background-color: var(--ifm-color-background)
 }

@@ -4,10 +4,10 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '101',
+    title: 'Basics',
     Svg: require('@site/static/img/undraw_books_re_8gea.svg').default,
     available: true,
-    href: "docs/101/what-is-legal-tech",
+    href: "docs/basics/background",
     description: (
       <>
         If you are new to legal tech, get a primer on what you need to know
@@ -18,7 +18,7 @@ const FeatureList = [
     title: 'Change',
     Svg: require('@site/static/img/undraw_road_sign_re_3kc3.svg').default,
     available: true,
-
+    href: "docs/change/background",
     description: (
       <>
         How to get teams and people to change (including those who might not want to)

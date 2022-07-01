@@ -6,7 +6,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  port: process.env.PORT || 3000,
   title: "Toolkits built by the legal tech community",
   tagline: "Helping you navigate the stormy seas of legal tech projects",
   url: 'https://dolegaltech.com',

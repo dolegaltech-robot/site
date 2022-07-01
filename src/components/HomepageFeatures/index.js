@@ -4,7 +4,7 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Basics',
+    title: 'Doing a project',
     Svg: require('@site/static/img/undraw_books_re_8gea.svg').default,
     available: true,
     href: "docs/basics/background",
@@ -15,7 +15,7 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Change',
+    title: 'Making people change',
     Svg: require('@site/static/img/undraw_road_sign_re_3kc3.svg').default,
     available: true,
     href: "docs/change/background",
@@ -26,22 +26,22 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Transactions',
-    available: true,
-    Svg: require('@site/static/img/undraw_absorbed_in_re_ymd6.svg').default,
-    description: (
-      <>
-        Explore ways in which law firms can complete transactions more effectively
-      </>
-    ),
-  },
-  {
-    title: 'Knowledge',
+    title: 'Sharing knowledge',
     available: true,
     Svg: require('@site/static/img/undraw_learning_re_32qv.svg').default,
     description: (
       <>
         Tools and techniques to enable better knowledge and experience sharing
+      </>
+    ),
+  },
+  {
+    title: 'Tech and transactions',
+    available: false,
+    Svg: require('@site/static/img/undraw_absorbed_in_re_ymd6.svg').default,
+    description: (
+      <>
+        Explore ways in which law firms can complete transactions more effectively
       </>
     ),
   },

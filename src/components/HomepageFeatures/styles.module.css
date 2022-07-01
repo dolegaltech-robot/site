@@ -1,13 +1,11 @@
-.features {
+.features  {
   display: flex;
   align-items: center;
   padding: 2rem 0;
   width: 100%;
 }
 
-.row .col.col.col {
-  border: 1px solid red !important
-}
+
 
 .featureSvg {
   height: 200px;
@@ -17,8 +15,4 @@
 div.col.col--4.unavailable {
   opacity: 0.3 !important;
   border: 5px solid red
-}
-
-.testy {
-  color: red !important;
 }

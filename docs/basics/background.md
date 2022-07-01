@@ -24,9 +24,9 @@ They may or may not be specific to the legal industry. For example, [Relativity]
 
 These are tools used by lawyers that are specific to legal work (or that produce an output for clients and anybody else that interacts with the legal system) that are newer than everyday tools, and may not (yet) have widespread adoption. This is probably what you think of when you first think about legal tech.
 
-Many of these tools  may claim to harness [machine learning](./key-concepts/artificial-intelligence). Some are "point solutions" - i.e. they have a niche application for a particular process in a particular type of work in a particular jurisdiction. For example, [10be5](https://10be5.com/) is a tool that introduces efficiencies for capital markets transactions when complying with Rule 10b-5 under the US Exchange Act of 1934.
+Many of these tools  may claim to harness [machine learning](./02-tech-concepts/artificial-intelligence). Some are "point solutions" - i.e. they have a niche application for a particular process in a particular type of work in a particular jurisdiction. For example, [10be5](https://10be5.com/) is a tool that introduces efficiencies for capital markets transactions when complying with Rule 10b-5 under the US Exchange Act of 1934.
 
-Tools in this category may progress to become everyday tools. Examples include [Zoom](https://zoom.us/), [Microsoft Teams](https;//teams.microsoft.com) and [DocuSign](https://docusign.com) - all of which were rarely adopted by legal professionals prior to 2020, but are now everyday tools many organisations.
+Tools in this category may progress to become everyday tools. Examples include [Zoom](https://zoom.us/), [Microsoft Teams](https://teams.microsoft.com) and [DocuSign](https://docusign.com) - all of which were rarely adopted by legal professionals prior to 2020, but are now everyday tools many organisations.
 
 :::info Examples
 

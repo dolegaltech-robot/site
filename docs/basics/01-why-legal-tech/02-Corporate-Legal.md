@@ -4,7 +4,7 @@
 
 Many in-house teams find themselves under increasing pressure, whether in a company that is scaling quickly or in an industry subject to increasing regulation. Because legal teams are often seen as cost centres in organisations, it can be a struggle to increase headcount to deal with this increasing workload.
 
-While [law firms](./for-law-firms) are not always primarily driven through efficiency, efficiency provides a route through these problem for in-house teams. Instead of precious resource being taken up asking the same questions over and over again, or doing manual processes that could be automated, in-house teams can leverage legal tech and better processes to cope with their resourcing challenges.
+While [law firms](./Law-firms) are not always primarily driven through efficiency, efficiency provides a route through these problem for in-house teams. Instead of precious resource being taken up asking the same questions over and over again, or doing manual processes that could be automated, in-house teams can leverage legal tech and better processes to cope with their resourcing challenges.
 
 :::info Example
 In-house lawyers using pen and paper-based methods to sign contracts saw bottlenecks emerge. The process was convoluted, involving a person emailing, printing, signing and scanning documents. This distracted in-house lawyers from core tasks. For this reason, in-house legal teams have been very quick to adopt e-signature technology, which vastly improves the process - meaning less resource is dedicated to these processes.

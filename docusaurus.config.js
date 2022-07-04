@@ -15,6 +15,9 @@ const config = {
   favicon: 'img/logo.svg',
   organizationName: 'jackwshepherd', // Usually your GitHub org/user name.
   projectName: 'dolegaltech', // Usually your repo name.
+  customFields: {
+    port: process.env.PORT || 3000
+  },
   presets: [
     [
       'classic',

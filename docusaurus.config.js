@@ -75,7 +75,7 @@ const config = {
             items: [
               {
                 label: 'Contact',
-                href: 'google.com',
+                href: 'https://google.com',
               },
             ],
           },

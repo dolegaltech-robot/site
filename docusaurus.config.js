@@ -29,7 +29,7 @@ const config = {
 
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/jackwshepherd/dolegaltech/tree/master',
+          editUrl: 'https://github.com/dolegaltech/site/edit/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

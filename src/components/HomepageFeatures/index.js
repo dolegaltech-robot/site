@@ -4,20 +4,31 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Doing a project',
+    title: 'Introduction to legal tech',
     Svg: require('@site/static/img/undraw_books_re_8gea.svg').default,
     available: true,
     href: "docs/basics/background",
     description: (
       <>
-        If you are new to legal tech, get a primer on what you need to know
+        Start here if you want to get a quick introduction to legal tech
+      </>
+    ),
+  },
+  {
+    title: 'Doing a project',
+    Svg: require('@site/static/img/undraw_learning_re_32qv.svg').default,
+    available: true,
+    href: "docs/basics/background",
+    description: (
+      <>
+        A basic framework you to follow on all legal tech projects
       </>
     ),
   },
   {
     title: 'Making people change',
     Svg: require('@site/static/img/undraw_road_sign_re_3kc3.svg').default,
-    available: true,
+    available: false,
     href: "docs/change/background",
     description: (
       <>
@@ -26,9 +37,9 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Sharing knowledge',
-    available: true,
-    Svg: require('@site/static/img/undraw_learning_re_32qv.svg').default,
+    title: 'Knowledge management',
+    available: false,
+    Svg: require('@site/static/img/undraw_sharing_knowledge_03vp.svg').default,
     description: (
       <>
         Tools and techniques to enable better knowledge and experience sharing
@@ -73,7 +84,7 @@ function Feature({Svg, title, description, available, href}) {
       <div className="text--center">
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className="text--center padding-horiz--md testdiv">
         <h3>{title}</h3>
         <p className={clsx(!available && 'pill')}>{available ? description : 'Coming soon'}</p>
       </div>

@@ -29,9 +29,9 @@ The same principle is true for business software. In contrast to on-premises sof
 
 This brings huge advantages for businesses:
 
-* First, they do not have to buy any physical servers. Instead, they can rely on servers owned by a third party.
-* Second, these servers are likely to be far more powerful than an organisation would have the resources to buy themselves. This means that applications that require extensive "compute power", such as machine learning (artificial intelligence) services, can be deployed.
-* Third, an organisation has very little to do in administering the cloud servers. Most configurations will be made through a control panel, rather than manually logging onto a server and making changers in configuration files directly.
+* **Infrastructure**. First, they do not have to buy any physical servers. Instead, they can rely on servers owned by a third party.
+* **Compute power**. Second, these servers are likely to be far more powerful than an organisation would have the resources to buy themselves. This means that applications that require extensive "compute power", such as machine learning (artificial intelligence) services, can be deployed.
+* **Resource**. Third, an organisation has very little to do in administering the cloud servers. Most configurations will be made through a control panel, rather than manually logging onto a server and making changers in configuration files directly.
 
 :::info example
 
@@ -61,7 +61,24 @@ This requirement can usually be met in the cloud, since the main cloud providers
 
 This is perhaps the biggest blocker for law firms. For the reasons above, some clients of law firms may have concerns about law firms moving their data into the cloud. In some cases, there may be obligations baked into law firm engagement letters to control where and how their data is stored. Financial services organisations are especially likely to have these requirements.
 
+Law firms would be wise to conduct an audit of their existing set of engagement terms with their clients. This will help law firms understand how many clients have particular requirements around data being in the cloud. There are at least three variants:
+
+- **Consent required**. Clients expressly require consent before their data is held in the cloud
+- **Notice required**. Clients require notification before their data is held in the cloud
+- **Silent**. The engagement letter is silent on where data is held
+
+In the second and third scenarios, many firms consider it prudent to inform clients before moving data into the cloud. This allows those clients to raise any concerns. It also provides law firms with an opportunity to remind clients of particular examples of service improvements they will benefit from through using cloud services.
+
+When embarking on this journey, it is generally the case that a minority of clients fall within the first scenario.
+
 If clients expect law firms to be able to keep pace with ever-increasing demands on resource, it is unrealistic to expect data to be kept forever on-premises. To do so imposes a huge administrative burden on law firms, and restricts the ability of law firms to use technology effectively.
+
+However, it is also clear that larger organisations will have complex requirements around security, data residency and other issues that will need to be carefully considered.
+
+Law firms would be wise to engage with their clients as soon as possible on this subject. The email template below gives some guidance of the key issues that might arise as part of this discussion.
+
+![Cloud email template](./assets/cloud-email-template.svg)
+
 
 ## Practicalities
 

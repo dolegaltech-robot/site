@@ -6,17 +6,17 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Toolkits built by the legal tech community",
-  tagline: "Helping you navigate the stormy seas of legal tech projects",
+  title: "Do Legal Tech",
+  tagline: "Helping you do legal tech projects better",
   url: 'https://dolegaltech.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.svg',
-  organizationName: 'jackwshepherd', // Usually your GitHub org/user name.
+  organizationName: 'dolegaltech', // Usually your GitHub org/user name.
   projectName: 'dolegaltech', // Usually your repo name.
   customFields: {
-    port: process.env.PORT || 3000
+    heroTitle: "Toolkits for the legal tech community"
   },
   presets: [
     [
@@ -74,19 +74,20 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Contact',
+                href: 'google.com',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Do Legal Tech All rights reserved`,
       },
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
     }),
+
 };
 
 module.exports = config;

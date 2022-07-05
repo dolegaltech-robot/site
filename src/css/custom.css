@@ -74,7 +74,7 @@ header.hero {
   border-radius: 20px;
   border: 1px solid var(--ifm-color-background);
   background-color: none;
-  transition: background-color 0.3s, border 0.3s;
+  transition: background-color 0.2s, border 0.2s;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -90,7 +90,6 @@ header.hero {
   background-color: var(--ifm-color-background-highlight);
   border: 1px solid #cccccc
 }
-
 
 .home.col:hover {
   text-decoration: none;
@@ -108,6 +107,13 @@ header.hero {
   font-size: 0.8rem
 }
 
+
+.text--center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .theme-doc-sidebar-item-category  {
   padding-top: 20px;
   margin-top: 20px;
@@ -117,6 +123,8 @@ article img {
     border: 1px dashed var(--ifm-color-background-highlight-border);
     padding: 2rem;
     border-radius: 20px;
+    display: flex;
+    align-self: center;
     margin: 2rem 0px;
     background-color: var(--ifm-color-background)
 }

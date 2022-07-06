@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# What is legal tech
+# What is legal technology
 
 The definition of <em>legal tech</em> is often debated, but usually irrelevant in practice. <em>Do Legal Tech</em> takes the view that legal tech is wide enough to capture all of the following:
 
